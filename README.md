@@ -1,13 +1,13 @@
 # caps
 Customer Acquisition Prioritization System (Recommendation System)
 
-
+By: Liu Yue (modeling) & Zhu Yilin (demo)
 In the perspective of a marketing consulting company, we recommend companies with potential new customers with high customer lifetime values. We developed our Customer Acquisition Prioritization System (CAPS) mainly have 2 sets of recommender algorithms - CF and popularity-based rules. More detailed results can be found in our report, presentation sides and the demo to promote CAPS our client.
 
 To access the demo, please visit the public link:  https://plot.ly/dashboard/baojinjiji:113/view
 
 As we use MongoDB to store the raw data file (about 2GB), you may need MongoDB.
-As we use Plotly for visulization, you may need to register an account on plot.ly and need to have Jupyer Notebook to run the demo.pybn file.
+As we use Plotly for visulization, you may need to register an account on plot.ly and need to have Jupyer Notebook to run the demo.pybn script.
 In addition, to run all the python files, you need to install several Python libraries via:
 	$ pip intall numpy pandas plotly matplotlib pymongo scikit-surprise
 The installation of scikit-surprise requires Visual Studio, whose version depends on your Python version.
